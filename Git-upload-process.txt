@@ -1,4 +1,8 @@
-git add .
-git commit -m "Added commit"
+//for creating new repository
 
-git remote add origin https://github.com/Shakib40/nextjs-fullstack-product.git
+git init
+git add .
+git commit -m "First Commit"
+git branch -M main
+git remote add origin https://shakib40@github.com/Shakib40/nextjs-fullstack-product.git
+git push -u origin main
