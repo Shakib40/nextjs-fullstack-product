@@ -6,3 +6,9 @@ git commit -m "First Commit"
 git branch -M main
 git remote add origin https://shakib40@github.com/Shakib40/nextjs-fullstack-product.git
 git push -u origin main
+
+
+
+git add .
+git commit -m "fixed fallback"
+git push --all
