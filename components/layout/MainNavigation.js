@@ -1,5 +1,5 @@
 import classes from './MainNavigation.module.css';
-import Link from 'next/link'
+import NextLink from 'next/Link'
 
 function MainNavigation() {
 
@@ -9,10 +9,10 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link href='/'>All Meetups</Link>
+            <NextLink href='/'>All Meetups</NextLink>
           </li>
           <li>
-            <Link href='/new-detail'>Add New Meetup</Link>
+            <NextLink href='/new-detail'>Add New Meetup</NextLink>
           </li>
         </ul>
       </nav>
